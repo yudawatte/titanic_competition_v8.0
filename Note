@@ -1,0 +1,38 @@
+Classifier	                    Accuracy
+---------------------           --------------
+KNeigbors Classifier	        80.47%
+Ada Boost Classifier	        81.49%
+Decision Tree Classifier	    82.16%
+Logistic Regression	            82.72%
+Support Vector Classifier	    83.05%      Score: 0.77751
+Gradient Boosting Classifier	83.17%      Score: 0.77990
+Extra Tree Classifier	        83.28%      Score: 0.78229
+Linear Discriminant Analysis	83.61%      Score: 0.77511
+Random Forest Classifier	    83.62%      Score: 0.77033
+MLP Classifier	                83.62%      Score: 0.78468
+Voting Classifier(Soft)                     Score: 0.77511
+
+After missing age value prediction
+Decision Tree Classifier	    81.36% (-)
+Ada Boost Classifier	        81.71% (+)
+KNeigbors Classifier	        82.38% (++)
+MLP Classifier	                82.72% (-)
+
+Gradient Boosting Classifier	83.17%
+Extra Tree Classifier	        83.27%      Score: 0.77990
+Logistic Regression	            83.27% (+)  Score: 0.77033
+Support Vector Classifier	    83.39% (+)  Score: 0.77990
+Linear Discriminant Analysis	83.61%      Score: 0.77990
+Random Forest Classifier        84.06% (+)  Score: 0.76794
+Voting Classifier(Soft)                     Score: 0.77751
+Voting Classifier(hard)                     Score: 0.77751
+
+After removing outliers and dimensionality reduction
+Random Forest Classifier        score: 77272
+Extra Tree Classifier           score: 75358
+Gradient Boosting Classifier    score: 77272
+Ada Boost Classifier            score: 77751
+Voting Classifier(hard)         score: 77751
+Voting Classifier(Soft)         score: 77272
+
+
